@@ -147,14 +147,14 @@ fun main(args: Array<String>) {
 
     // Ljava.lang.Character;@1e81...
     println("'students' массив: $students")
-    println("'students' массивдин ичиндеги элементтери (мазмуну) менен кошо сапка айландыруу:${students.contentToString()}")
+    println("'students' массивдин ичиндеги элементтери (мазмуну) менен кошо сапка айландыруу: ${students.contentToString()}")
 
     students[0] = "Бектур"
     students[1] = "Чолпонай"
     students[2] = "Нурзат"
     students[3] = "Айжан"
     students[4] = "Акыл"
-    println("'students' массивдин ичиндеги элементтери (мазмуну) менен кошо сапка айландыруу:${students.contentToString()}")
+    println("'students' массивдин ичиндеги элементтери (мазмуну) менен кошо сапка айландыруу: ${students.contentToString()}")
 
     //               Индекстер: 0    1    2    3    4    5    6    7    8    9   10   11   12
     val keyboardRow2 = arrayOf('`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=')
@@ -165,9 +165,9 @@ fun main(args: Array<String>) {
     println("Жүманын 1. күнү: ${weekdaysKG[0]}")
     println("Жүманын 1. күнү: ${weekdaysKG.first()}")
     println("Жүманын 2. күнү: ${weekdaysKG[1]}")
-    println("Жүманын акыркы күнү:: ${weekdaysKG[6]}")
-    println("Жүманын акыркы күнү:: ${weekdaysKG[weekdaysKG.size - 1]}")
-    println("Жүманын акыркы күнү:: ${weekdaysKG.last()}")
+    println("Жүманын акыркы күнү: ${weekdaysKG[6]}")
+    println("Жүманын акыркы күнү: ${weekdaysKG[weekdaysKG.size - 1]}")
+    println("Жүманын акыркы күнү: ${weekdaysKG.last()}")
 
     val weekdaysUS = weekdaysKG.clone()
     weekdaysUS[0] = weekdaysKG[6]
