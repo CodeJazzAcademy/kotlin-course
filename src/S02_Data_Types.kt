@@ -160,7 +160,7 @@ fun main(args: Array<String>) {
     val keyboardRow2 = arrayOf('`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=')
     println("'keyboardRow2' массивдин өлчөмү? ${keyboardRow2.size}")
 
-    //           Индекстер: 0           1           2           3           4       5         6
+    //             Индекстер: 0           1           2           3           4       5         6
     val weekdaysKG = arrayOf("Дүйшөмбү", "Шейшемби", "Шаршемби", "Бейшемби", "Жума", "Ишемби", "Жекшемби")
     println("Жүманын 1. күнү: ${weekdaysKG[0]}")
     println("Жүманын 1. күнү: ${weekdaysKG.first()}")
@@ -203,7 +203,6 @@ fun main(args: Array<String>) {
     matrix.forEach { println(it.contentToString()) }
     matrix[1][1] = 5
     matrix.forEach { println(it.contentToString()) }
-
 
     // ж.б. көп колдонулган, пайдалуу методтор жана lambda туюнтмалар
     //.average()
