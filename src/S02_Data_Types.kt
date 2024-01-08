@@ -138,7 +138,7 @@ fun main(args: Array<String>) {
     println("'$days' сабын 8. индекстен акыркы индекске чейинки сапты бөлүп алуу: ${days.substring(8, days.length)}")
 
     val capital = "    Бишкек  "
-    println("capital: $capital")
+    println("Борбор шаар: $capital")
 
     println("'$capital' сабынын оң жана сол жагындагы боштук символдорду өчүрүү: ${capital.trim()}")
 
